@@ -1,0 +1,29 @@
+/*******   General styling    ******/
+section{position: relative;}
+
+/*******   header   *******/
+header{
+    padding: .5rem;
+}
+.bar::before, .bar::after {
+    content: ' ';
+    display: table;
+}
+.bar::after{
+    clear: both;
+}
+.bar-left {
+	float: left;
+}
+.bar-right {
+	float: right;
+}
+/********    First div  ******/
+#div1 {
+    position: relative;
+	height: 100vh;
+}
+.content {
+    font-size: 3em;
+	text-align: center;
+}
