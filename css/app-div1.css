@@ -1,5 +1,8 @@
 /*******   General styling    ******/
-section{position: relative;}
+section{
+    position: relative;
+    background-image: url(/assets/dishi-images/land-banner.jpg);
+}
 
 /*******   header   *******/
 header{
@@ -20,10 +23,15 @@ header{
 }
 /********    First div  ******/
 #div1 {
+    background-size: cover;
     position: relative;
 	height: 100vh;
 }
 .content {
+    width: 100%;
     font-size: 3em;
 	text-align: center;
+}
+.content>p{
+    color: #fff;
 }
