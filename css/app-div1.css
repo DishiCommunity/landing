@@ -1,12 +1,14 @@
 /*******   General styling    ******/
+
 section{
+ 
     position: relative;
-    background-image: url(/assets/dishi-images/land-banner.jpg);
 }
 
 /*******   header   *******/
 header{
-    padding: .5rem;
+    height: 50px;
+    
 }
 .bar::before, .bar::after {
     content: ' ';
@@ -21,17 +23,74 @@ header{
 .bar-right {
 	float: right;
 }
+.bar{
+    padding: 1rem;
+    display: block;
+    height: inherit;
+}
 /********    First div  ******/
+.green {color: #42bd41;}
+.red{color: red;}
 #div1 {
+    background:linear-gradient(
+    rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(/assets/dishi-images/land-image.jpg);
     background-size: cover;
     position: relative;
 	height: 100vh;
 }
 .content {
+   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));*/
     width: 100%;
-    font-size: 3em;
+    font-size: 3.8em;
 	text-align: center;
+   font-family: 'Josefin Slab', serif;
+    font-weight: 100;
+    
 }
 .content>p{
     color: #fff;
+}
+.sp {
+   font-family: 'Dancing Script', cursive;
+    padding: 0 20px;
+	font-size: .6em;
+    font-weight: lighter;
+}
+.amaze{
+    font-size: 30px;
+}
+.fork {
+	width:50%; 
+}
+.fork-left {
+	float: left;
+}
+.fork-right {
+	float: right;
+}
+.fullstop{
+    display: inline-block;
+    font-size: 3rem;
+    color: white;
+}
+.btn {
+    font-size: .5em;
+	margin-top: 5%;
+}
+.btn >a{
+    /*#E87A4A*/
+    color:#fff;
+    border: 2.5px solid #fff;
+    padding: .4% 2%;
+    background-color: transparent;
+    border-radius: 5%;
+    transition: all .2s ease;
+    width: 100px;
+	height: 100px;
+    
+}
+.btn>a:hover{
+    border: .5px solid #fff; 
+    background-color: #E87A4A;
+    border-radius: 100%;
 }
