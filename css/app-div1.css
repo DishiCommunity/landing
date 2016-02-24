@@ -7,7 +7,7 @@ section{
 
 /*******   header   *******/
 header{
-    height: 50px;
+    height: 60px;
     
 }
 .bar::before, .bar::after {
@@ -24,9 +24,25 @@ header{
 	float: right;
 }
 .bar{
-    padding: 1rem;
+    margin: 0;
+    padding: .5rem;
     display: block;
     height: inherit;
+    border-bottom: 1px solid #fff;
+}
+
+.open-kitchen-btn {
+    color: #fff;
+    background-color:transparent;
+    border: 2.5px solid #fff;
+	display: block;
+    padding: 10px 20px;
+    transition: all .3s ease;
+}
+.open-kitchen-btn:hover {
+	color: #fff;
+    border: 2.5px solid #fff;
+    background-color: #E87A4A;
 }
 /********    First div  ******/
 .green {color: #42bd41;}
@@ -81,16 +97,15 @@ header{
     /*#E87A4A*/
     color:#fff;
     border: 2.5px solid #fff;
-    padding: .4% 2%;
+    padding: .4% 3%;
     background-color: transparent;
     border-radius: 5%;
     transition: all .2s ease;
-    width: 100px;
-	height: 100px;
+    width: 200px;
+	height: 200px;
     
 }
 .btn>a:hover{
     border: .5px solid #fff; 
     background-color: #E87A4A;
-    border-radius: 100%;
 }
