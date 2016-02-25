@@ -1,0 +1,57 @@
+/*The divs*/
+#div1, #div2, #div3 {
+    position: absolute;
+    width: 100%;
+}
+
+#div1 {
+    top: 0%;
+    height: 110%;
+}
+
+#div2 {
+    top: 100%;    
+    height: 100vh;
+}
+
+#div3 {
+    top: 193%;
+    height: 100vh;
+    background-color:bisque;  
+}
+
+#mid-div {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: cadetblue;     
+    
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px #000;    
+    text-align: center;
+    z-index: 1
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    #mid-div {
+        width: 100%;
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    #mid-div {
+        width: 100%;
+    }
+}
+
+
+#left-div, #right-div {
+    height: 100%;
+}
+
+#div2-top-left, #div2-bottom-left, #div2-top-right, #div2-bottom-right {
+    height: 50%;
+}
+

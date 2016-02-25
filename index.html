@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="css/custom_styles.css">
     <link rel="stylesheet" href="css/app-div1.css">
     <link rel="stylesheet" href="css/app-div2.css">
-   <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200italic' rel='stylesheet' type='text/css'>    <!--Scripts -->
-<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:100italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200italic' rel='stylesheet' type='text/css'>    <!--Scripts -->
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:100italic' rel='stylesheet' type='text/css'>
     <script src="js/wow.js"></script>
 
 
@@ -25,6 +25,7 @@
     <!----------------------------------------------->
     <!---Div One ---->
     <section id="div1">
+        <div class="expanded row column over">
         
         <header>
             <div class="bar">
@@ -33,6 +34,8 @@
                 </div>
                 <div class="bar-right">
                     <a class="open-kitchen-btn">Open a Kitchen</a>
+                    <br>
+                    <a class="open-kitchen-btn" href="#mid-div">mid div</a>
                 </div>
             </div>    
         </header>
@@ -66,20 +69,105 @@
       <!--  </div>-->
 
 
-
+        </div>
     </section>
     <!----------------------------------------------->
-    <!---Div One ---->
+    <!---Div Two ---->
     <section id="div2">
+        <!-- outside whole width row -->
+        <div class="expanded row column">
+            
+            <div class="bar-right">
+                <a class="open-kitchen-btn" href="#div1">div 1</a>
+            </div>
+            
+            <!-- middle div -->
+            <div id="mid-div" class="small-12 small-centered columns center-c">
+
+                <!-- left row -->                                        
+                <div id="left-div" class="small-6 columns">
+                    <div id="div2-top-left" class="row top">
+                    </div>
+                    <div id="div2-bottom-left" class="row bottom">
+                    </div>
+                </div>
+
+                <!-- right row -->                                        
+                <div id="right-div" class="small-6 columns">
+                    <div id="div2-top-right" class="row top">
+                    </div>
+                    <div id="div2-bottom-right" class="row bottom">
+                    </div>
+                </div>  
+            </div>
+
+        </div>
 
 
 
 
     </section>
+
+<!----------------------------------------------->
+    <!---Div Three ---->
+    <section id="div3">
+        <div class="expanded row column">
+        </div>
+    </section>
+
+
 </div> <!--whole end--->
-<script src="foundation/js/vendor/jquery.min.js"></script>
-<script src="foundation/js/vendor/what-input.min.js"></script>
-<script src="foundation/js/foundation.min.js"></script>
-<script src="foundation/js/app.js"></script>
+<!------------------------------------------------------------>
+    <!--Scripts-->
+    <script src="foundation/js/vendor/jquery.min.js"></script>
+    <script src="foundation/js/vendor/what-input.min.js"></script>
+    <script src="foundation/js/foundation.min.js"></script>
+    <script src="foundation/js/app.js"></script>
+    
+    <!--Vegas-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="slider/vegas.min.js"></script>
+
+    <script>
+    $("#div1").vegas({
+        overlay: true,
+        transition: 'fade',
+        transitionDuration: 4000,
+        delay: 1000,
+//        animation: 'random',
+//        animationDuration: 20000,
+        slides: [
+            { src: "/assets/dishi-images/land-image.jpg" },
+        ],
+        overlay: '/slider/overlays/06.png'
+    });
+    </script>
+    
+    <!-- div 2 - left-->
+    <script>
+    $("#div2-bottom-left").vegas({
+        overlay: true,
+        transition: 'fade',
+        slides: [
+            { src: "/assets/dishi-images/spice2.jpg" },
+        ],
+        overlay: '/slider/overlays/06.png'
+    });
+    </script>
+    
+    <!-- div 2 - right-->
+    <script>
+    $("#div2-top-right").vegas({
+        overlay: true,
+        transition: 'fade',
+        slides: [
+            { src: "/assets/dishi-images/spice3.jpg" },
+        ],
+        overlay: '/slider/overlays/06.png'
+    });
+    </script>
+    
+    
+    
 </body>
 </html>    

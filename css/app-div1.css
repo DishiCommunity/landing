@@ -31,12 +31,21 @@ header{
 /********    First div  ******/
 .green {color: #42bd41;}
 .red{color: red;}
+
 #div1 {
+/*
     background:linear-gradient(
     rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(/assets/dishi-images/land-image.jpg);
+*/
     background-size: cover;
     position: relative;
 	height: 100vh;
+}
+
+.over {
+    width: 100% !important;
+    height: 100%;
+    background-color:rgba(192,192,192,0.4);
 }
 .content {
    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));*/
