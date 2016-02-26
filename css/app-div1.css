@@ -34,10 +34,7 @@ header{
 .red{color: red;}
 
 #div1 {
-/*
-    background:linear-gradient(
-    rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(/assets/dishi-images/land-image.jpg);
-*/
+    background: url(/assets/dishi-images/land-banner15.jpg);
     background-size: cover;
     position: relative;
 /*	height: 100vh;*/
