@@ -109,8 +109,11 @@ header{
 /*Header*/
 
 header {
+    height: 70px;
+/*
     position: fixed;
     top: 0;
+*/
 }
 
 .bar-right {
@@ -146,11 +149,9 @@ header {
 
 /*---------------------------*/
 #div1-content {
-    height: calc(110% - 50px);
+    height: calc(100% - 70px);
     width: 100% !important;
     margin: 0 auto;
-
-    font-family: Mosk;
 }
 
 #col1, #col2, #col3 {

@@ -24,6 +24,8 @@ html, body {
     line-height: 1;
     margin: 0;
 
+    font-family: Raleway-Regular;
+
 /*     background: url(../img/bg.svg) #000 no-repeat center center fixed;*/
     -webkit-background-size: cover;
     color: #555;
@@ -33,7 +35,8 @@ html, body {
 
 h1, h2, h3, h4, h5 {
 /*    color: #636;*/
-    font-family: Chardons;
+/*    font-family: Chardons;*/
+    font-family: DirectDuGauche;
     font-weight: bold;
 }
 
