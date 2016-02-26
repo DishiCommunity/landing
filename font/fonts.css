@@ -11,9 +11,20 @@
     src: url(../font/Chardons/Chardons.ttf);
 }
 
+
 @font-face {
-    font-family: Metropolis;
-    src: url(../font/Metropolis.otf);
+    font-family: Mosk;
+    src: url(../font/Mosk/MoskNormal400.ttf);
+}
+
+@font-face {
+    font-family: DirectDuGauche;
+    src: url(../font/DirectDuGauche/Direct-du-Gauche.ttf);
+}
+
+@font-face {
+    font-family: DitaSweet;
+    src: url(../font/DitaSweet/Dita-Sweet.ttf);
 }
 
 
@@ -40,6 +51,11 @@
 @font-face {
     font-family: Raleway-Bold;
     src: url(../font/raleway/Raleway-Bold.otf);
+}
+
+@font-face {
+    font-family: Raleway-Regular-Italic;
+    src: url(../font/raleway/Raleway-Regular-Italic.otf);
 }
 
 

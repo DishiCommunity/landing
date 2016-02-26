@@ -1,7 +1,6 @@
 /*******   General styling    ******/
 
 section{
- 
     position: relative;
 }
 
@@ -39,34 +38,39 @@ header{
 */
     background-size: cover;
     position: relative;
-	height: 100vh;
+/*	height: 100vh;*/
+    height: 110%;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .over {
     width: 100% !important;
     height: 100%;
     background-color:rgba(192,192,192,0.4);
+    margin: 0 auto;
+    padding: 0;
 }
 .content {
    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));*/
-    width: 100%;
-    font-size: 3.8em;
+/*    width: 100%;*/
+    font-size: 3.8rem;
 	text-align: center;
-   font-family: 'Josefin Slab', serif;
-    font-weight: 100;
+/*   font-family: 'Josefin Slab', serif;*/
+/*    font-weight: 100;*/
     
 }
 .content>p{
     color: #fff;
 }
 .sp {
-   font-family: 'Dancing Script', cursive;
+/*   font-family: 'Dancing Script', cursive;*/
     padding: 0 20px;
-	font-size: .6em;
+	font-size: .8rem;
     font-weight: lighter;
 }
 .amaze{
-    font-size: 30px;
+/*    font-size: 30px;*/
 }
 .fork {
 	width:50%; 
@@ -103,3 +107,155 @@ header{
     background-color: #E87A4A;
     border-radius: 100%;
 }
+
+/*-----------------------------------------------------------------*/
+/*Wanjugu's version*/
+
+/*---------------------------*/
+/*Logo*/
+
+.dishi-logo {
+
+}
+
+
+
+/*---------------------------*/
+#div1-content {
+    height: calc(110% - 50px);
+    width: 100% !important;
+    margin: 0 auto;
+
+    font-family: Mosk;
+}
+
+#col1, #col2, #col3 {
+    height: 100%;
+}
+
+/*---------------------------*/
+/*#col1*/
+.content {
+    height: 550px;
+    width: 600px;
+    color: aliceblue;
+
+/*    border: 1px solid #fff;*/
+/*    box-shadow: 0 0 2px #000;*/
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+
+    /* centering */
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/*The logo*/
+
+.dishi-logo-text h2 {
+    font-family: DirectDuGauche;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+
+.fork {
+    width: 100%;
+    display: inline-flex;
+    align-items:center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fork div {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fork-left, .fork-right {
+    text-align: center;
+    width: 40%;
+}
+
+.dishi-logo-icon {
+    width: auto;
+    height: 70px;
+}
+
+.slogan {
+    margin: 50px 50px 80px 50px;
+
+    font-size: 1.1rem;
+    font-family: Raleway-Regular;
+}
+
+.slogan span {
+/*
+    font-family: DitaSweet;
+    font-family: Raleway-Regular-Italic;
+*/
+}
+
+.btn {
+
+}
+.btn >a{
+    /*#E87A4A*/
+    color:#fff;
+    transition: all .2s ease;
+    border: 1px solid #fff;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: 0 0 2px #000;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+
+    font-family: DaxMedium;
+}
+
+.colourful {
+    margin-top:20px;
+    width: 100%;
+
+}
+.sp {
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    font-size: 1rem;
+/*    font-family:Chardons; */
+    font-family: DirectDuGauche;
+
+
+}
+
+
+/*---------------------------*/
+/*#col2*/
+
+
+/*---------------------------*/
+/*#col3*/
+/*Social icons*/
+
+
+
+.social-icons {
+    height: auto;
+    position: absolute;
+    bottom: 200px;
+}
+
+.social-icons div {
+    height: 70px;
+}
+
+
+.social-icons div img {
+    width: 45px;
+}
+
