@@ -125,8 +125,8 @@ header {
 
 .bar-right div {
     height: 100%;
-    padding: 13px 8px;
-    margin-right: 5px;
+    padding: 13px 10px;
+    margin-right: 7px;
     font-family: Raleway-Regular;
 
     color: #fff;
@@ -263,8 +263,8 @@ header {
     padding: 0;
     width: auto;
     font-size: 1.1rem;
-/*    font-family:Chardons; */
-    font-family: DirectDuGauche;
+/*    font-family:Chardons;
+    font-family: DirectDuGauche; */
     font-family: Raleway-Regular;
 
 }
@@ -283,7 +283,7 @@ header {
 .social-icons {
     height: auto;
     position: absolute;
-    bottom: 200px;
+    bottom: 150px;
 }
 
 .social-icons div {

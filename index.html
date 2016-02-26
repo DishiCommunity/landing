@@ -36,13 +36,17 @@
 <!--                        <strong>DISHI</strong>-->
                     </div>
                     <div class="bar-right">
+                        <a class="about-btn" href="#mid-div">
+                            <div>About</div>
+                        </a>
+                        <a class="menu-btn" href="#div3">
+                            <div>How To Order</div>
+                        </a>
                         <a class="open-kitchen-btn">
                             <div>Open a Kitchen</div>
                         </a>
 
-                        <a class="about-btn" href="#mid-div">
-                            <div>About</div>
-                        </a>
+
                     </div>
                 </div>
             </header>
@@ -121,7 +125,7 @@
                         </a>
 
                         <!-- twitter icon-->
-                        <a href="#">
+                        <a href="https://twitter.com/sisi_ni_dishi">
                             <div>
                                 <img src="assets/dishi-icons/twitter-64.png">
                             </div>
@@ -203,7 +207,7 @@
                 <!-- left row -->                                        
                 <div id="left-div" class="small-6 columns">
                     <div id="div2-top-left">
-                        <h5> ABOUT US</h5>
+                        <h5 class="center-c"> ABOUT US</h5>
                     </div>
                     <div id="div2-bottom-left">
                     </div>
@@ -215,9 +219,11 @@
                     </div>
 
                     <div id="div2-bottom-right" class="row column">
+
                         <p class="center-c">
                         Lorem ipsum dolor sit amet, vix purto posse fabellas in, an eros ornatus indoctum pri. Eos ei cibo augue reformidans. Esse erant eligendi nam ad. Cetero accusam eos ea. Decore latine constituto eos ea. Per in vocibus contentiones, nec ea quaerendum adversarium.
                         </p>
+
                     </div>
                 </div>  
             </div>
@@ -235,6 +241,9 @@
         <div class="expanded row column">
         </div>
     </section>
+
+<!----------------------------------------------->
+
 
 
 </div> <!--whole end--->
@@ -254,7 +263,7 @@
         overlay: true,
         transition: 'fade',
         transitionDuration: 4000,
-        delay: 5000,
+        delay: 8000,
 //        animation: 'random',
 //        animationDuration: 20000,
         slides: [
@@ -278,7 +287,7 @@
         overlay: true,
         transition: 'fade',
         slides: [
-            { src: "/assets/dishi-images/spice2.jpg" },
+            { src: "/assets/dishi-images/spice5.jpg" },
         ],
         overlay: '/slider/overlays/06.png'
     });
@@ -290,7 +299,19 @@
         overlay: true,
         transition: 'fade',
         slides: [
-            { src: "/assets/dishi-images/spice3.jpg" },
+            { src: "/assets/dishi-images/pink-onion.jpg" },
+        ],
+        overlay: '/slider/overlays/06.png'
+    });
+    </script>
+
+    <!-- div 3 - right-->
+    <script>
+    $("#div3").vegas({
+        overlay: true,
+        transition: 'fade',
+        slides: [
+            { src: "/assets/dishi-images/div3-banner2.jpg" },
         ],
         overlay: '/slider/overlays/06.png'
     });
