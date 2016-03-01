@@ -6,7 +6,7 @@ section{
 
 /*******   header   *******/
 header{
-    height: 70px;
+    height: 50px;
     width: 100%;
     z-index: 10000;
 }
@@ -28,6 +28,89 @@ header{
     padding: 1rem;
     display: block;
     height: inherit;
+}
+/********    First div  ******/
+.green {color: #42bd41;}
+.red{color: red;}
+
+#div1 {
+    background: url(/assets/dishi-images/land-banner15.jpg);
+    background-size: cover;
+    position: relative;
+/*	height: 100vh;*/
+    height: 110%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.over {
+    width: 100% !important;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+    padding: 0;
+}
+.content {
+   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));*/
+/*    width: 100%;*/
+    font-size: 3.8rem;
+	text-align: center;
+/*   font-family: 'Josefin Slab', serif;*/
+/*    font-weight: 100;*/
+
+}
+.content>p{
+    color: #fff;
+}
+.sp {
+/*   font-family: 'Dancing Script', cursive;*/
+    padding: 0 20px;
+	font-size: .8rem;
+    font-weight: lighter;
+}
+.amaze{
+/*    font-size: 30px;*/
+}
+.fork {
+	width:50%;
+}
+.fork-left {
+	float: left;
+}
+.fork-right {
+	float: right;
+}
+.fullstop{
+    display: inline-block;
+    font-size: 3rem;
+    color: white;
+}
+
+.btn >a{
+    /*#E87A4A*/
+    color:#fff;
+    border: 2.5px solid #fff;
+    padding: .4% 2%;
+    background-color: transparent;
+    border-radius: 5%;
+    transition: all .2s ease;
+    width: 100px;
+	height: 100px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*Wanjugu's version*/
+
+/*---------------------------*/
+/*Header*/
+
+header {
+    height: 70px;
+/*
+    position: fixed;
+    top: 0;
+*/
 }
 
 .bar-right {
@@ -60,21 +143,8 @@ header{
     border: 1px solid coral;
 }
 
-/*-----------------------------------------------------*/
-/********    First div  ******/
-.green {color: #42bd41;}
-.red{color: red;}
 
-#div1 {
-    background: url(/assets/dishi-images/land-image.jpg);
-    background-size: cover;
-    position: relative;
-/*	height: 100vh;*/
-    height: 110%;
-    margin: 0 auto;
-    padding: 0;
-}
-
+/*---------------------------*/
 #div1-content {
     height: calc(100% - 70px);
     width: 100% !important;
@@ -87,18 +157,9 @@ header{
 
 /*---------------------------*/
 /*#col1*/
-.over {
-    width: 100% !important;
-    height: 100%;
-/*    background-color: rgba(255,255,255, 0.2);*/
-    background-color: rgba(0,0,0,0.6);
-    margin: 0 auto;
-    padding: 0;
-}
-
 .content {
-    height: auto;
-    width: 70% !important;
+    height: 550px;
+    width: 600px;
     color: aliceblue;
 
 /*    border: 1px solid #fff;*/
@@ -108,29 +169,22 @@ header{
     text-decoration: none;
 
     /* centering */
-    top: 45%;
-    left: 50%;
+    top: 40%;
+    left: 25%;
     transform: translate(-50%, -50%);
     position: absolute;
-
-}
-.content p{
-    color: #fff;
 }
 
-/*----------------------*/
 /*The logo*/
 
 .dishi-logo-text h2 {
     font-family: DirectDuGauche;
     font-size: 4rem;
     margin: 0 auto;
-    margin-bottom: 30px
-
 }
 
 .fork {
-    width: 80%;
+    width: 100%;
     display: inline-flex;
     align-items:center;
     margin: 0 auto;
@@ -143,8 +197,8 @@ header{
 }
 
 .fork-left, .fork-right {
-/*    text-align: center;*/
-    width: 30%;
+    text-align: center;
+    width: 40%;
 }
 
 .dishi-logo-icon {
@@ -152,12 +206,9 @@ header{
     height: 70px;
 }
 
-/*----------------------*/
-/*The slogan*/
-
 .slogan {
     margin: 40px 50px 50px 50px;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-family: Raleway-Regular;
 }
 
@@ -168,14 +219,11 @@ header{
 */
 }
 
-/*----------------------*/
-/*The Button*/
-
 .btn {
     height: 70px;
     margin-bottom: 35px;
-}
 
+}
 .btn >a{
     /*#E87A4A*/
     color:#fff;
@@ -196,45 +244,42 @@ header{
     box-shadow: 0;
 }
 
-/*--------------------------------------------*/
-/*The Colourful text*/
-
 .colourful {
-    display:inline-flex;
-    align-items:center;
-    width: auto;
-    height: auto;
-    margin-top: 20px;
-}
-
-.colourful p, .colourful span{
-    height: 100%;
+    width: 100%;
+    height: 40px;
+    margin-top: -20px;
 }
 
 .colourful p {
-    line-height: 1rem;
-    font-size: 3rem;
-    margin-top: -1.7rem;
+    height: 100%;
 
 }
-
 .sp {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
     width: auto;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 /*    font-family:Chardons;
     font-family: DirectDuGauche; */
     font-family: Raleway-Regular;
+
 }
+
+
+/*---------------------------*/
+/*#col2*/
+
 
 /*---------------------------*/
 /*#col3*/
 /*Social icons*/
+
+
+
 .social-icons {
     height: auto;
     position: absolute;
-    bottom: 100px;
+    bottom: 150px;
 }
 
 .social-icons div {
@@ -245,6 +290,4 @@ header{
 .social-icons div img {
     width: 45px;
 }
-
-
 
