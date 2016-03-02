@@ -38,6 +38,12 @@
 }
 
 @font-face {
+    font-family: Raleway-Light;
+    src: url(../font/raleway/Raleway-Light.otf);
+}
+
+
+@font-face {
     font-family: Raleway-SemiBold;
     src: url(../font/raleway/Raleway-SemiBold.otf);
 }
