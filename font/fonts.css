@@ -44,6 +44,11 @@
 
 
 @font-face {
+    font-family: Raleway-ExtraLight;
+    src: url(../font/raleway/Raleway-ExtraLight.otf);
+}
+
+@font-face {
     font-family: Raleway-SemiBold;
     src: url(../font/raleway/Raleway-SemiBold.otf);
 }
