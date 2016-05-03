@@ -1,7 +1,13 @@
+body{
+    width 100%: 
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Slab', serif;
+}
 /*******   General styling    ******/
 
 section{
- 
     position: relative;
 }
 
@@ -10,6 +16,11 @@ header{
     height: 60px;
     
 }
+a{
+    color: #fafafa;
+    font-size: 17spx;
+}
+ul,li{list-style: none; text-decoration: none;}
 .bar::before, .bar::after {
     content: ' ';
     display: table;
@@ -48,11 +59,84 @@ header{
 .green {color: #42bd41;}
 .red{color: red;}
 #div1 {
-    background:linear-gradient(
-    rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(/assets/dishi-images/land-image.jpg);
+    z-index: -500;
+    /*linear-gradient(
+    rgba(0,0,0,0.6),rgba(0,0,0,0.2)),*/
+    background: url(/assets/dishi-images/land-image.jpg);
     background-size: cover;
     position: relative;
 	height: 100vh;
+}
+    #div2 {
+	background-image: url(/assets/land-images/wood.jpg);
+    height: 85vh;
+    background-size: cover;
+    text-align: center;
+}
+.div3 {
+    background-color: #fff;
+    width: 100%;
+	height: auto;
+     border-top:1px solid #ea5c22;
+}
+.boxed {
+    margin: 0;
+    position: relative;
+    font-size: 1.4em;
+	width: 100%;
+    height: 100%;}
+    .shadow{
+      width: 100%;
+      height: 100%;}
+    
+    .chef-side,.user-side{   
+      position: relative;
+      margin: 0;
+      width: 50%;
+        float: left;
+      }
+.chef-side:after,.user-side:after{
+    display: block;
+    content: '';
+    clear:both;
+}
+    .caption {
+      font-size: .9em;
+      margin: 0;
+      padding: 2em;    
+      background-color: rgba(10,10,10,.4);    
+      height: 100%;    
+      width: 100%;    
+      color: #fff;    
+      top:0;
+	  position: absolute;}
+  
+.about-dishi {
+    font-weight: 900;
+    height: auto;
+    padding: 2em 2.5em;
+    font-size: 1.4em;
+    margin-top: 3.7em;
+    background-color: #fff;
+	border: 8px solid #ea5c22;}
+    .about-dishi > h3 {
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.9rem;
+        border-bottom: 1px solid #000;}
+        
+     .about-chef,.about-user {
+	  margin: 1em 0;
+}
+    .about-left,
+    .about-right{
+      margin: 7em 0;}
+.banner-overlay {
+    z-index: -400;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+	background-color: #000;
 }
 .content {
    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));*/
@@ -61,7 +145,13 @@ header{
 	text-align: center;
    font-family: 'Josefin Slab', serif;
     font-weight: 100;
-    
+    margin-top: 3em;
+}
+@media screen and (max-width: 39.9375em) {
+    .content {
+    margin-top: 1em;    
+	font-size: 3em;
+}
 }
 .content>p{
     color: #fff;
@@ -108,4 +198,31 @@ header{
 .btn>a:hover{
     border: .5px solid #fff; 
     background-color: #E87A4A;
+}
+.decorated{
+    color: #fff;
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px solid #ea5c22;
+    width: 800px; /* half of limiter */
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 90%;
+}
+.decorated > span:after{
+    left: 90%;
+}
+.footer{
+    color: #fafafa;
+    background: #424242;
 }
